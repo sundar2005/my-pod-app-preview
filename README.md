@@ -2,11 +2,13 @@
 
 **[Open the screenshot gallery](https://sundar2005.github.io/my-pod-app-preview/)** · **[Download all screenshots](my-pod-screenshots.zip)**
 
-34 actual native Android captures, organised into 7 groups. App preview version **0.2.0**, captured 31 October 2026. All people and activity shown are sample data. This is not a live monitoring service.
+45 actual native Android captures, organised into 8 groups. App preview version **0.3.0**, captured 31 October 2026. All people and activity shown are sample data. This is not a live monitoring service.
 
 ![My Pod modern design overview](overview.png)
 
 The gallery supports category filters, search, full-resolution viewing, keyboard navigation and direct links to individual screens. The original PNG files are in [screenshots](screenshots/); smaller WebP images are used only for fast gallery loading.
+
+[See the three-pod use-case guide](USE-CASES.md) for Family, Close Buddies, Office and the current development boundaries.
 
 ## Screenshot index
 
@@ -62,31 +64,31 @@ Scroll continuation includes Paati with an activity gap and Kavin with unavailab
 
 <a href="screenshots/05-pod-selector.png"><img src="screenshots/05-pod-selector.png" alt="Choose a pod" width="260"></a>
 
-Family, Friends and Work are separate circles in the local preview.
+Family Pod, Close Buddies Pod and My Office Pod are separate populated circles in the local preview.
 
 **Flow:** Open My pod → Open the Family pod selector
 
 [Full-resolution image](screenshots/05-pod-selector.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=pod-selector)
 
-### 06 Friends pod empty state
+### 06 Close Buddies Pod overview
 
-<a href="screenshots/06-friends-empty.png"><img src="screenshots/06-friends-empty.png" alt="Friends pod empty state" width="260"></a>
+<a href="screenshots/06-buddies-overview.png"><img src="screenshots/06-buddies-overview.png" alt="Close Buddies Pod overview" width="260"></a>
 
-An empty circle provides a clear invitation action.
+A populated friends circle shows Meena, Arjun and Kavin; Kavin also belongs to Family.
 
-**Flow:** Choose Friends
+**Flow:** Choose Close Buddies Pod
 
-[Full-resolution image](screenshots/06-friends-empty.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=friends-empty)
+[Full-resolution image](screenshots/06-buddies-overview.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=buddies-overview)
 
-### 07 Work pod empty state
+### 07 My Office Pod overview
 
-<a href="screenshots/07-work-empty.png"><img src="screenshots/07-work-empty.png" alt="Work pod empty state" width="260"></a>
+<a href="screenshots/07-office-overview.png"><img src="screenshots/07-office-overview.png" alt="My Office Pod overview" width="260"></a>
 
-The work circle uses the same consent-based invitation entry point.
+Kavya and Rahul form a separate opt-in colleagues circle, without attendance or performance tracking.
 
-**Flow:** Choose Work
+**Flow:** Choose My Office Pod
 
-[Full-resolution image](screenshots/07-work-empty.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=work-empty)
+[Full-resolution image](screenshots/07-office-overview.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=office-overview)
 
 </details>
 
@@ -385,10 +387,126 @@ The preference controls remain reachable with larger text.
 
 </details>
 
+<details>
+<summary><strong>Multiple pods</strong> — 11 screens</summary>
+
+### 35 Friends and overlapping membership
+
+<a href="screenshots/35-buddies-members.png"><img src="screenshots/35-buddies-members.png" alt="Friends and overlapping membership" width="260"></a>
+
+Meena and Arjun are close friends; Kavin appears in both Family and Close Buddies. Family-only people do not appear here.
+
+**Flow:** Choose Close Buddies Pod → Scroll to all members
+
+[Full-resolution image](screenshots/35-buddies-members.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=buddies-members)
+
+### 36 Close friend activity details
+
+<a href="screenshots/36-buddies-person.png"><img src="screenshots/36-buddies-person.png" alt="Close friend activity details" width="260"></a>
+
+A friend has their own sample evidence and contact actions.
+
+**Flow:** Choose Close Buddies Pod → Open Meena
+
+[Full-resolution image](screenshots/36-buddies-person.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=buddies-person)
+
+### 37 Invitation targets Close Buddies
+
+<a href="screenshots/37-buddies-invitation.png"><img src="screenshots/37-buddies-invitation.png" alt="Invitation targets Close Buddies" width="260"></a>
+
+The destination pod is visible before creating an invitation preview. Joining and sharing require consent.
+
+**Flow:** Choose Close Buddies Pod → Choose Invite
+
+[Full-resolution image](screenshots/37-buddies-invitation.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=buddies-invitation)
+
+### 38 Close Buddies updates stay separate
+
+<a href="screenshots/38-buddies-updates.png"><img src="screenshots/38-buddies-updates.png" alt="Close Buddies updates stay separate" width="260"></a>
+
+Friends updates have no Family incident. Switching tabs retains the selected circle.
+
+**Flow:** Choose Close Buddies Pod → Open Updates
+
+[Full-resolution image](screenshots/38-buddies-updates.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=buddies-updates)
+
+### 39 Office colleagues and consent boundary
+
+<a href="screenshots/39-office-members.png"><img src="screenshots/39-office-members.png" alt="Office colleagues and consent boundary" width="260"></a>
+
+Kavya and Rahul are office-only members. This is a voluntary wellbeing circle, not an attendance system.
+
+**Flow:** Choose My Office Pod
+
+[Full-resolution image](screenshots/39-office-members.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=office-members)
+
+### 40 Office colleague with unavailable status
+
+<a href="screenshots/40-office-unavailable.png"><img src="screenshots/40-office-unavailable.png" alt="Office colleague with unavailable status" width="260"></a>
+
+A device connection is not evidence that Rahul is active. The same conservative evidence rules apply in every pod.
+
+**Flow:** Choose My Office Pod → Open Rahul
+
+[Full-resolution image](screenshots/40-office-unavailable.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=office-unavailable)
+
+### 41 Invitation targets My Office Pod
+
+<a href="screenshots/41-office-invitation.png"><img src="screenshots/41-office-invitation.png" alt="Invitation targets My Office Pod" width="260"></a>
+
+An office invitation names its destination. It does not automatically enrol colleagues or grant access.
+
+**Flow:** Choose My Office Pod → Choose Invite
+
+[Full-resolution image](screenshots/41-office-invitation.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=office-invitation)
+
+### 42 Office-only updates
+
+<a href="screenshots/42-office-updates.png"><img src="screenshots/42-office-updates.png" alt="Office-only updates" width="260"></a>
+
+Only colleague evidence is listed. Family incident actions are absent.
+
+**Flow:** Choose My Office Pod → Open Updates
+
+[Full-resolution image](screenshots/42-office-updates.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=office-updates)
+
+### 43 Office approved-people preview
+
+<a href="screenshots/43-office-approved-people.png"><img src="screenshots/43-office-approved-people.png" alt="Office approved-people preview" width="260"></a>
+
+The sample approved-people list follows the selected pod. Global sharing preferences remain device-wide in this preview.
+
+**Flow:** Choose My Office Pod → Open You → Scroll to People you approve
+
+[Full-resolution image](screenshots/43-office-approved-people.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=office-approved-people)
+
+### 44 Pod selection survives app restart
+
+<a href="screenshots/44-pod-restored.png"><img src="screenshots/44-pod-restored.png" alt="Pod selection survives app restart" width="260"></a>
+
+The local preview remembers My Office Pod after a force-stop and relaunch.
+
+**Flow:** Choose My Office Pod → Close and reopen the app
+
+[Full-resolution image](screenshots/44-pod-restored.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=pod-restored)
+
+### 45 Family follow-up survives pod switching
+
+<a href="screenshots/45-family-return.png"><img src="screenshots/45-family-return.png" alt="Family follow-up survives pod switching" width="260"></a>
+
+Returning to Family restores its recorded outcome. Visiting another pod does not reset the Family incident.
+
+**Flow:** Close the Family sample check-in → Visit Buddies and Office → Return to Family Pod and Updates
+
+[Full-resolution image](screenshots/45-family-return.png) · [Direct gallery link](https://sundar2005.github.io/my-pod-app-preview/#screen=family-return)
+
+</details>
+
 ## Coverage and limits
 
 - These are Android app screenshots. The Appa screen demonstrates sample movement-based status; it is not a native iOS screenshot. Native iOS captures await Mac/Xcode verification.
-- Captured flows include onboarding, family and empty pods, phone-use and movement evidence, activity gaps, unavailable status, invitation validation/previews, contact dialogs, check-in follow-up, privacy preferences and larger-text layouts.
+- Captured flows include onboarding, populated Family, Close Buddies and Office pods, phone-use and movement evidence, activity gaps, unavailable status, invitation validation/previews, contact dialogs, check-in follow-up, privacy preferences and larger-text layouts.
+- Multiple pods demonstrate separate member lists, overlapping membership, pod-specific invitations and updates, approved-people previews, selection persistence and retention of the Family incident outcome. Sharing preferences remain global device settings; these local filters are not server access controls.
 - Real sign-in, remote invitation acceptance, OS sensor permission flows, background monitoring, schedules, server alerts and billing are not connected in this preview and are not presented here as implemented screens.
 - Only screenshot/gallery assets are included. No source audio, private requirements, application source code, APK, credentials or real contact details are published in this repository.
 - Activity offers context, not proof that a person is safe.

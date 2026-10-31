@@ -15,7 +15,7 @@ function render(){
   const query=$('search').value.trim().toLowerCase();
   visible=all.filter(s=>(activeCategory==='All screens'||s.category===activeCategory)&&[s.title,s.description,s.category,...s.steps].join(' ').toLowerCase().includes(query));
   $('library-title').textContent=activeCategory;
-  $('result-count').textContent=`${visible.length} of ${all.length} screenshots · native Android · version 0.2.0`;
+  $('result-count').textContent=`${visible.length} of ${all.length} screenshots · native Android · version 0.3.0`;
   $('empty').hidden=visible.length>0;
   gallery.replaceChildren(...visible.map((s,i)=>{
     const figure=element('figure','screen-card');

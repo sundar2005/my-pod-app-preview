@@ -9,7 +9,7 @@
     ],
     "image": "screenshots/01-welcome.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/01-welcome.webp"
   },
   {
@@ -23,7 +23,7 @@
     ],
     "image": "screenshots/02-welcome-consent.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/02-welcome-consent.webp"
   },
   {
@@ -36,7 +36,7 @@
     ],
     "image": "screenshots/03-family-overview.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/03-family-overview.webp"
   },
   {
@@ -50,48 +50,48 @@
     ],
     "image": "screenshots/04-family-people.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/04-family-people.webp"
   },
   {
     "id": "pod-selector",
     "title": "Choose a pod",
     "category": "Pods and people",
-    "description": "Family, Friends and Work are separate circles in the local preview.",
+    "description": "Family Pod, Close Buddies Pod and My Office Pod are separate populated circles in the local preview.",
     "steps": [
       "Open My pod",
       "Open the Family pod selector"
     ],
     "image": "screenshots/05-pod-selector.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/05-pod-selector.webp"
   },
   {
-    "id": "friends-empty",
-    "title": "Friends pod empty state",
+    "id": "buddies-overview",
+    "title": "Close Buddies Pod overview",
     "category": "Pods and people",
-    "description": "An empty circle provides a clear invitation action.",
+    "description": "A populated friends circle shows Meena, Arjun and Kavin; Kavin also belongs to Family.",
     "steps": [
-      "Choose Friends"
+      "Choose Close Buddies Pod"
     ],
-    "image": "screenshots/06-friends-empty.png",
+    "image": "screenshots/06-buddies-overview.png",
     "platform": "Android",
-    "version": "0.2.0",
-    "thumbnail": "thumbnails/06-friends-empty.webp"
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/06-buddies-overview.webp"
   },
   {
-    "id": "work-empty",
-    "title": "Work pod empty state",
+    "id": "office-overview",
+    "title": "My Office Pod overview",
     "category": "Pods and people",
-    "description": "The work circle uses the same consent-based invitation entry point.",
+    "description": "Kavya and Rahul form a separate opt-in colleagues circle, without attendance or performance tracking.",
     "steps": [
-      "Choose Work"
+      "Choose My Office Pod"
     ],
-    "image": "screenshots/07-work-empty.png",
+    "image": "screenshots/07-office-overview.png",
     "platform": "Android",
-    "version": "0.2.0",
-    "thumbnail": "thumbnails/07-work-empty.webp"
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/07-office-overview.webp"
   },
   {
     "id": "person-phone-activity",
@@ -104,7 +104,7 @@
     ],
     "image": "screenshots/08-person-phone-activity.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/08-person-phone-activity.webp"
   },
   {
@@ -118,7 +118,7 @@
     ],
     "image": "screenshots/09-person-movement.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/09-person-movement.webp"
   },
   {
@@ -132,7 +132,7 @@
     ],
     "image": "screenshots/10-person-actions.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/10-person-actions.webp"
   },
   {
@@ -146,7 +146,7 @@
     ],
     "image": "screenshots/11-check-in-message-preview.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/11-check-in-message-preview.webp"
   },
   {
@@ -160,7 +160,7 @@
     ],
     "image": "screenshots/12-call-preview.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/12-call-preview.webp"
   },
   {
@@ -174,7 +174,7 @@
     ],
     "image": "screenshots/13-person-activity-gap.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/13-person-activity-gap.webp"
   },
   {
@@ -188,7 +188,7 @@
     ],
     "image": "screenshots/14-person-unavailable.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/14-person-unavailable.webp"
   },
   {
@@ -202,7 +202,7 @@
     ],
     "image": "screenshots/15-invite-form.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/15-invite-form.webp"
   },
   {
@@ -216,7 +216,7 @@
     ],
     "image": "screenshots/16-invite-validation.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/16-invite-validation.webp"
   },
   {
@@ -231,7 +231,7 @@
     ],
     "image": "screenshots/17-invite-preview.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/17-invite-preview.webp"
   },
   {
@@ -244,7 +244,7 @@
     ],
     "image": "screenshots/18-updates-open.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/18-updates-open.webp"
   },
   {
@@ -258,7 +258,7 @@
     ],
     "image": "screenshots/19-incident-open.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/19-incident-open.webp"
   },
   {
@@ -272,7 +272,7 @@
     ],
     "image": "screenshots/20-approved-responders.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/20-approved-responders.webp"
   },
   {
@@ -285,7 +285,7 @@
     ],
     "image": "screenshots/21-incident-acknowledged.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/21-incident-acknowledged.webp"
   },
   {
@@ -298,7 +298,7 @@
     ],
     "image": "screenshots/22-incident-closed.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/22-incident-closed.webp"
   },
   {
@@ -312,7 +312,7 @@
     ],
     "image": "screenshots/23-updates-closed.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/23-updates-closed.webp"
   },
   {
@@ -325,7 +325,7 @@
     ],
     "image": "screenshots/24-privacy-default.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/24-privacy-default.webp"
   },
   {
@@ -338,7 +338,7 @@
     ],
     "image": "screenshots/25-sharing-paused.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/25-sharing-paused.webp"
   },
   {
@@ -351,7 +351,7 @@
     ],
     "image": "screenshots/26-optional-check-ins.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/26-optional-check-ins.webp"
   },
   {
@@ -364,7 +364,7 @@
     ],
     "image": "screenshots/27-city-sharing.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/27-city-sharing.webp"
   },
   {
@@ -378,7 +378,7 @@
     ],
     "image": "screenshots/28-approved-people.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/28-approved-people.webp"
   },
   {
@@ -391,7 +391,7 @@
     ],
     "image": "screenshots/29-privacy-explanation.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/29-privacy-explanation.webp"
   },
   {
@@ -404,7 +404,7 @@
     ],
     "image": "screenshots/30-reset-confirmation.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/30-reset-confirmation.webp"
   },
   {
@@ -418,7 +418,7 @@
     ],
     "image": "screenshots/31-large-text-home.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/31-large-text-home.webp"
   },
   {
@@ -432,7 +432,7 @@
     ],
     "image": "screenshots/32-large-text-people.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/32-large-text-people.webp"
   },
   {
@@ -446,7 +446,7 @@
     ],
     "image": "screenshots/33-large-text-details.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/33-large-text-details.webp"
   },
   {
@@ -460,7 +460,162 @@
     ],
     "image": "screenshots/34-large-text-privacy.png",
     "platform": "Android",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "thumbnail": "thumbnails/34-large-text-privacy.webp"
+  },
+  {
+    "id": "buddies-members",
+    "title": "Friends and overlapping membership",
+    "category": "Multiple pods",
+    "description": "Meena and Arjun are close friends; Kavin appears in both Family and Close Buddies. Family-only people do not appear here.",
+    "steps": [
+      "Choose Close Buddies Pod",
+      "Scroll to all members"
+    ],
+    "image": "screenshots/35-buddies-members.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/35-buddies-members.webp"
+  },
+  {
+    "id": "buddies-person",
+    "title": "Close friend activity details",
+    "category": "Multiple pods",
+    "description": "A friend has their own sample evidence and contact actions.",
+    "steps": [
+      "Choose Close Buddies Pod",
+      "Open Meena"
+    ],
+    "image": "screenshots/36-buddies-person.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/36-buddies-person.webp"
+  },
+  {
+    "id": "buddies-invitation",
+    "title": "Invitation targets Close Buddies",
+    "category": "Multiple pods",
+    "description": "The destination pod is visible before creating an invitation preview. Joining and sharing require consent.",
+    "steps": [
+      "Choose Close Buddies Pod",
+      "Choose Invite"
+    ],
+    "image": "screenshots/37-buddies-invitation.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/37-buddies-invitation.webp"
+  },
+  {
+    "id": "buddies-updates",
+    "title": "Close Buddies updates stay separate",
+    "category": "Multiple pods",
+    "description": "Friends updates have no Family incident. Switching tabs retains the selected circle.",
+    "steps": [
+      "Choose Close Buddies Pod",
+      "Open Updates"
+    ],
+    "image": "screenshots/38-buddies-updates.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/38-buddies-updates.webp"
+  },
+  {
+    "id": "office-members",
+    "title": "Office colleagues and consent boundary",
+    "category": "Multiple pods",
+    "description": "Kavya and Rahul are office-only members. This is a voluntary wellbeing circle, not an attendance system.",
+    "steps": [
+      "Choose My Office Pod"
+    ],
+    "image": "screenshots/39-office-members.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/39-office-members.webp"
+  },
+  {
+    "id": "office-unavailable",
+    "title": "Office colleague with unavailable status",
+    "category": "Multiple pods",
+    "description": "A device connection is not evidence that Rahul is active. The same conservative evidence rules apply in every pod.",
+    "steps": [
+      "Choose My Office Pod",
+      "Open Rahul"
+    ],
+    "image": "screenshots/40-office-unavailable.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/40-office-unavailable.webp"
+  },
+  {
+    "id": "office-invitation",
+    "title": "Invitation targets My Office Pod",
+    "category": "Multiple pods",
+    "description": "An office invitation names its destination. It does not automatically enrol colleagues or grant access.",
+    "steps": [
+      "Choose My Office Pod",
+      "Choose Invite"
+    ],
+    "image": "screenshots/41-office-invitation.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/41-office-invitation.webp"
+  },
+  {
+    "id": "office-updates",
+    "title": "Office-only updates",
+    "category": "Multiple pods",
+    "description": "Only colleague evidence is listed. Family incident actions are absent.",
+    "steps": [
+      "Choose My Office Pod",
+      "Open Updates"
+    ],
+    "image": "screenshots/42-office-updates.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/42-office-updates.webp"
+  },
+  {
+    "id": "office-approved-people",
+    "title": "Office approved-people preview",
+    "category": "Multiple pods",
+    "description": "The sample approved-people list follows the selected pod. Global sharing preferences remain device-wide in this preview.",
+    "steps": [
+      "Choose My Office Pod",
+      "Open You",
+      "Scroll to People you approve"
+    ],
+    "image": "screenshots/43-office-approved-people.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/43-office-approved-people.webp"
+  },
+  {
+    "id": "pod-restored",
+    "title": "Pod selection survives app restart",
+    "category": "Multiple pods",
+    "description": "The local preview remembers My Office Pod after a force-stop and relaunch.",
+    "steps": [
+      "Choose My Office Pod",
+      "Close and reopen the app"
+    ],
+    "image": "screenshots/44-pod-restored.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/44-pod-restored.webp"
+  },
+  {
+    "id": "family-return",
+    "title": "Family follow-up survives pod switching",
+    "category": "Multiple pods",
+    "description": "Returning to Family restores its recorded outcome. Visiting another pod does not reset the Family incident.",
+    "steps": [
+      "Close the Family sample check-in",
+      "Visit Buddies and Office",
+      "Return to Family Pod and Updates"
+    ],
+    "image": "screenshots/45-family-return.png",
+    "platform": "Android",
+    "version": "0.3.0",
+    "thumbnail": "thumbnails/45-family-return.webp"
   }
 ]
