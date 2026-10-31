@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "platform": "Android",
+  "captured_date": "31 October 2026",
+  "screen_count": 34,
+  "categories": [
+    "Getting started",
+    "Pods and people",
+    "Activity and evidence",
+    "Invitations and contact",
+    "Alerts and follow-up",
+    "Privacy and control",
+    "Accessibility"
+  ],
+  "sample_data": true,
+  "ios_screenshots_available": false
+}

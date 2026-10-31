@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore My Pod's native mobile app screenshots, organised by page, use case and UI state. Sample-data Android preview version 0.2.0.">
+  <meta name="theme-color" content="#123c3c"><meta name="robots" content="noindex,nofollow">
+  <title>My Pod — App screenshot library</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#screens">Skip to screenshots</a>
+  <aside class="sidebar">
+    <a class="brand" href="./" aria-label="My Pod screenshot library"><svg aria-hidden="true" viewBox="0 0 32 32"><circle cx="9" cy="10" r="5"/><circle cx="23" cy="10" r="5"/><circle cx="16" cy="23" r="5"/></svg>my pod</a>
+    <p class="side-label">Screenshot library</p>
+    <nav id="categories" aria-label="Screenshot categories"></nav>
+    <div class="side-note"><span class="dot"></span> Native Android captures<p>Version 0.2.0<br>Sample people and local demo flows.</p></div>
+    <a class="repo-link" href="https://github.com/sundar2005/my-pod-app-preview">View on GitHub <span aria-hidden="true">↗</span></a>
+  </aside>
+  <main>
+    <header class="intro">
+      <div class="intro-top"><span class="badge">App design review</span><a class="download-all" href="my-pod-screenshots.zip" download>Download all screenshots <span aria-hidden="true">↓</span></a></div>
+      <h1>A closer look<br>at My Pod.</h1>
+      <p class="lede">Every implemented page and key state, from joining your circle to following up on a check-in. Open a screen for its full-size image and the steps behind it.</p>
+      <p class="boundary">This is a sample-data preview, not a live monitoring service. All images were captured from the Android app. Native iOS screenshots are not yet available.</p>
+      <details class="overview"><summary>See the design overview</summary><img src="overview.png" alt="Three actual Android screens showing the modern My Pod home, activity detail and privacy design" loading="lazy" width="1172" height="905"></details>
+    </header>
+    <section class="library" id="screens" aria-labelledby="library-title">
+      <div class="library-head"><div><h2 id="library-title">All screens</h2><p id="result-count" aria-live="polite">Loading the screenshot library…</p></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search screens or use cases" aria-label="Search screens or use cases"></label></div>
+      <div id="gallery" class="gallery"></div>
+      <p id="empty" class="empty" hidden>No matching screens. Try another category or search.</p>
+      <noscript><p>JavaScript is required for filtering and full-screen viewing. <a href="https://github.com/sundar2005/my-pod-app-preview#screenshot-index">Browse the complete screenshot index on GitHub</a> instead.</p></noscript>
+    </section>
+    <section class="coverage" aria-labelledby="coverage-title"><h2 id="coverage-title">What this preview covers</h2><div class="coverage-grid"><div><h3>Captured from the current app</h3><p>Onboarding, family and empty pods, phone activity and movement, unavailable status, invitation previews, contact dialogs, check-in follow-up, privacy controls and larger-text layouts.</p></div><div><h3>Planned, not represented as live screens</h3><p>Real sign-in, remote invitations and approvals, sensor permissions, background collectors, schedules, server notifications and billing. Those integrations are not connected in this build.</p></div></div><p class="fine-print">Only gallery assets and descriptions are published here. The source audio, private requirements and application source code are not included. Activity provides context; it does not prove somebody is safe.</p></section>
+    <footer><a class="brand small" href="./">my pod</a><span>India-first mobile app · Android preview 0.2.0</span><a href="README.md">Screenshot index</a></footer>
+  </main>
+  <dialog id="viewer" aria-labelledby="viewer-title"><div class="viewer-bar"><span id="viewer-position"></span><div><button id="previous" aria-label="Previous screenshot">←</button><button id="next" aria-label="Next screenshot">→</button><button id="close" aria-label="Close screenshot">✕</button></div></div><div class="viewer-body"><div class="image-pane"><img id="viewer-image" alt=""></div><div class="viewer-info"><span id="viewer-category" class="badge"></span><h2 id="viewer-title"></h2><p id="viewer-description"></p><h3>How to reach this screen</h3><ol id="viewer-steps"></ol><a id="original" class="primary-link" target="_blank" rel="noopener">Open full-resolution PNG <span aria-hidden="true">↗</span></a><button id="copy-link" class="copy-link">Copy a link to this screen</button><p class="fine-print">Actual Android capture. Sample data only. Keyboard: ← / → to browse, Esc to close.</p><p id="copy-status" aria-live="polite"></p></div></div></dialog>
+  <script src="gallery.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,466 @@
+[
+  {
+    "id": "welcome",
+    "title": "Welcome and product introduction",
+    "category": "Getting started",
+    "description": "The first-run introduction explains the small trusted circle and optional check-ins.",
+    "steps": [
+      "Open My Pod for the first time"
+    ],
+    "image": "screenshots/01-welcome.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/01-welcome.webp"
+  },
+  {
+    "id": "welcome-consent",
+    "title": "What sharing means",
+    "category": "Getting started",
+    "description": "The lower welcome screen explains approved people and clearly identifies the sample experience.",
+    "steps": [
+      "Open the welcome screen",
+      "Scroll to the introduction and primary action"
+    ],
+    "image": "screenshots/02-welcome-consent.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/02-welcome-consent.webp"
+  },
+  {
+    "id": "family-overview",
+    "title": "Family pod overview",
+    "category": "Pods and people",
+    "description": "The main dashboard shows the family, an outstanding sample alert, and recent evidence.",
+    "steps": [
+      "Explore My Pod"
+    ],
+    "image": "screenshots/03-family-overview.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/03-family-overview.webp"
+  },
+  {
+    "id": "family-people",
+    "title": "All four sample people",
+    "category": "Pods and people",
+    "description": "Scroll continuation includes Paati with an activity gap and Kavin with unavailable human-activity status.",
+    "steps": [
+      "Open Family pod",
+      "Scroll through the people tiles"
+    ],
+    "image": "screenshots/04-family-people.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/04-family-people.webp"
+  },
+  {
+    "id": "pod-selector",
+    "title": "Choose a pod",
+    "category": "Pods and people",
+    "description": "Family, Friends and Work are separate circles in the local preview.",
+    "steps": [
+      "Open My pod",
+      "Open the Family pod selector"
+    ],
+    "image": "screenshots/05-pod-selector.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/05-pod-selector.webp"
+  },
+  {
+    "id": "friends-empty",
+    "title": "Friends pod empty state",
+    "category": "Pods and people",
+    "description": "An empty circle provides a clear invitation action.",
+    "steps": [
+      "Choose Friends"
+    ],
+    "image": "screenshots/06-friends-empty.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/06-friends-empty.webp"
+  },
+  {
+    "id": "work-empty",
+    "title": "Work pod empty state",
+    "category": "Pods and people",
+    "description": "The work circle uses the same consent-based invitation entry point.",
+    "steps": [
+      "Choose Work"
+    ],
+    "image": "screenshots/07-work-empty.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/07-work-empty.webp"
+  },
+  {
+    "id": "person-phone-activity",
+    "title": "Amma — phone activity",
+    "category": "Activity and evidence",
+    "description": "Recent sample phone interaction, with its original observation age.",
+    "steps": [
+      "Open Family pod",
+      "Open Amma"
+    ],
+    "image": "screenshots/08-person-phone-activity.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/08-person-phone-activity.webp"
+  },
+  {
+    "id": "person-movement",
+    "title": "Appa — movement",
+    "category": "Activity and evidence",
+    "description": "Movement-based reassurance is labelled as movement, not an unlock. This is an Android rendering of sample iPhone evidence, not an iOS screenshot.",
+    "steps": [
+      "Open Family pod",
+      "Open Appa"
+    ],
+    "image": "screenshots/09-person-movement.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/09-person-movement.webp"
+  },
+  {
+    "id": "person-actions",
+    "title": "Contact actions and evidence explanation",
+    "category": "Activity and evidence",
+    "description": "Scroll continuation explains the limits of movement evidence and exposes check-in/call actions.",
+    "steps": [
+      "Open Appa",
+      "Scroll to the explanation and contact actions"
+    ],
+    "image": "screenshots/10-person-actions.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/10-person-actions.webp"
+  },
+  {
+    "id": "check-in-message-preview",
+    "title": "Quick check-in message preview",
+    "category": "Invitations and contact",
+    "description": "The dialog states that this sample action has not sent a message.",
+    "steps": [
+      "Open Appa",
+      "Choose Ask if everything is okay"
+    ],
+    "image": "screenshots/11-check-in-message-preview.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/11-check-in-message-preview.webp"
+  },
+  {
+    "id": "call-preview",
+    "title": "Call action preview",
+    "category": "Invitations and contact",
+    "description": "The sample contact has no real number. No phone call is placed.",
+    "steps": [
+      "Open Appa",
+      "Choose Call Appa"
+    ],
+    "image": "screenshots/12-call-preview.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/12-call-preview.webp"
+  },
+  {
+    "id": "person-activity-gap",
+    "title": "Paati — activity gap",
+    "category": "Activity and evidence",
+    "description": "An activity gap prompts a check-in; it does not claim that an emergency has occurred.",
+    "steps": [
+      "Open Family pod",
+      "Open Paati"
+    ],
+    "image": "screenshots/13-person-activity-gap.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/13-person-activity-gap.webp"
+  },
+  {
+    "id": "person-unavailable",
+    "title": "Kavin — unavailable",
+    "category": "Activity and evidence",
+    "description": "Device connectivity alone does not establish human activity. The status remains unavailable.",
+    "steps": [
+      "Open Family pod",
+      "Open Kavin"
+    ],
+    "image": "screenshots/14-person-unavailable.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/14-person-unavailable.webp"
+  },
+  {
+    "id": "invite-form",
+    "title": "Invite someone into your pod",
+    "category": "Invitations and contact",
+    "description": "An invitation does not grant access: the recipient chooses whether to join and share.",
+    "steps": [
+      "Open My pod",
+      "Choose Invite"
+    ],
+    "image": "screenshots/15-invite-form.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/15-invite-form.webp"
+  },
+  {
+    "id": "invite-validation",
+    "title": "Invitation validation",
+    "category": "Invitations and contact",
+    "description": "A missing name produces an inline validation message.",
+    "steps": [
+      "Open Invite",
+      "Preview without a name"
+    ],
+    "image": "screenshots/16-invite-validation.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/16-invite-validation.webp"
+  },
+  {
+    "id": "invite-preview",
+    "title": "Personalised invitation preview",
+    "category": "Invitations and contact",
+    "description": "A sample invitation is prepared locally. No invitation link or message is sent.",
+    "steps": [
+      "Enter the sample name Meena",
+      "Choose Preview invitation",
+      "Scroll to the invitation"
+    ],
+    "image": "screenshots/17-invite-preview.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/17-invite-preview.webp"
+  },
+  {
+    "id": "updates-open",
+    "title": "Updates with an open check-in",
+    "category": "Alerts and follow-up",
+    "description": "The activity timeline distinguishes an unresolved check-in from routine evidence.",
+    "steps": [
+      "Open Updates"
+    ],
+    "image": "screenshots/18-updates-open.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/18-updates-open.webp"
+  },
+  {
+    "id": "incident-open",
+    "title": "Check-in needs attention",
+    "category": "Alerts and follow-up",
+    "description": "Only approved sample responders appear. An activity gap is described conservatively.",
+    "steps": [
+      "Open Updates",
+      "View check-in"
+    ],
+    "image": "screenshots/19-incident-open.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/19-incident-open.webp"
+  },
+  {
+    "id": "approved-responders",
+    "title": "Approved responder plan",
+    "category": "Alerts and follow-up",
+    "description": "Scroll continuation shows the primary responder, approved backup and local-demo boundary.",
+    "steps": [
+      "Open the sample check-in",
+      "Scroll through the responder plan"
+    ],
+    "image": "screenshots/20-approved-responders.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/20-approved-responders.webp"
+  },
+  {
+    "id": "incident-acknowledged",
+    "title": "Responder acknowledges follow-up",
+    "category": "Alerts and follow-up",
+    "description": "Acknowledgement records ownership but keeps the check-in open until an outcome is recorded.",
+    "steps": [
+      "Choose I am checking on Paati"
+    ],
+    "image": "screenshots/21-incident-acknowledged.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/21-incident-acknowledged.webp"
+  },
+  {
+    "id": "incident-closed",
+    "title": "Contact outcome recorded",
+    "category": "Alerts and follow-up",
+    "description": "The person following up records a sample conversation and closes this local incident.",
+    "steps": [
+      "Record We spoke. Close check-in."
+    ],
+    "image": "screenshots/22-incident-closed.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/22-incident-closed.webp"
+  },
+  {
+    "id": "updates-closed",
+    "title": "Updates after resolution",
+    "category": "Alerts and follow-up",
+    "description": "The timeline now reflects the recorded outcome rather than an unresolved alert.",
+    "steps": [
+      "Close the incident",
+      "Return to Updates"
+    ],
+    "image": "screenshots/23-updates-closed.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/23-updates-closed.webp"
+  },
+  {
+    "id": "privacy-default",
+    "title": "Privacy preferences by default",
+    "category": "Privacy and control",
+    "description": "Passive sharing is a preview. Optional explicit check-ins and city sharing start off.",
+    "steps": [
+      "Open You"
+    ],
+    "image": "screenshots/24-privacy-default.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/24-privacy-default.webp"
+  },
+  {
+    "id": "sharing-paused",
+    "title": "Sharing paused",
+    "category": "Privacy and control",
+    "description": "A deliberate pause is visible; it is not confused with an activity gap.",
+    "steps": [
+      "Turn on Pause my sharing"
+    ],
+    "image": "screenshots/25-sharing-paused.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/25-sharing-paused.webp"
+  },
+  {
+    "id": "optional-check-ins",
+    "title": "Explicit check-ins enabled optionally",
+    "category": "Privacy and control",
+    "description": "An explicit confirmation can be added without becoming compulsory for every user.",
+    "steps": [
+      "Enable Optional check-ins"
+    ],
+    "image": "screenshots/26-optional-check-ins.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/26-optional-check-ins.webp"
+  },
+  {
+    "id": "city-sharing",
+    "title": "City sharing preference",
+    "category": "Privacy and control",
+    "description": "The local preference is city-level sharing, not a route or exact address. No location permission is requested in this build.",
+    "steps": [
+      "Enable Share my city"
+    ],
+    "image": "screenshots/27-city-sharing.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/27-city-sharing.webp"
+  },
+  {
+    "id": "approved-people",
+    "title": "Approved people and privacy actions",
+    "category": "Privacy and control",
+    "description": "Scroll continuation lists sample approved people and exposes privacy information and reset.",
+    "steps": [
+      "Open You",
+      "Scroll to People you approve"
+    ],
+    "image": "screenshots/28-approved-people.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/28-approved-people.webp"
+  },
+  {
+    "id": "privacy-explanation",
+    "title": "Activity and privacy explanation",
+    "category": "Privacy and control",
+    "description": "The dialog explains platform limits and that sensors, accounts and remote notifications are not connected.",
+    "steps": [
+      "Choose About activity & privacy"
+    ],
+    "image": "screenshots/29-privacy-explanation.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/29-privacy-explanation.webp"
+  },
+  {
+    "id": "reset-confirmation",
+    "title": "Restart preview confirmation",
+    "category": "Privacy and control",
+    "description": "Reset requires an explicit choice, with an option to keep preferences.",
+    "steps": [
+      "Choose Restart preview"
+    ],
+    "image": "screenshots/30-reset-confirmation.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/30-reset-confirmation.webp"
+  },
+  {
+    "id": "large-text-home",
+    "title": "Larger text and single-column people",
+    "category": "Accessibility",
+    "description": "At 1.4-times text size, the people layout switches to a roomier single column.",
+    "steps": [
+      "Set Android text scale to 1.4",
+      "Open My pod"
+    ],
+    "image": "screenshots/31-large-text-home.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/31-large-text-home.webp"
+  },
+  {
+    "id": "large-text-people",
+    "title": "Single-column people tiles",
+    "category": "Accessibility",
+    "description": "Scroll continuation shows the larger-text people layout without squeezing two cards together.",
+    "steps": [
+      "Use 1.4-times text",
+      "Scroll through Family pod"
+    ],
+    "image": "screenshots/32-large-text-people.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/32-large-text-people.webp"
+  },
+  {
+    "id": "large-text-details",
+    "title": "Larger-text evidence details",
+    "category": "Accessibility",
+    "description": "Identity, evidence and device metrics remain scrollable; the metrics stack vertically.",
+    "steps": [
+      "Use 1.4-times text",
+      "Open Appa"
+    ],
+    "image": "screenshots/33-large-text-details.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/33-large-text-details.webp"
+  },
+  {
+    "id": "large-text-privacy",
+    "title": "Larger-text privacy controls",
+    "category": "Accessibility",
+    "description": "The preference controls remain reachable with larger text.",
+    "steps": [
+      "Use 1.4-times text",
+      "Open You"
+    ],
+    "image": "screenshots/34-large-text-privacy.png",
+    "platform": "Android",
+    "version": "0.2.0",
+    "thumbnail": "thumbnails/34-large-text-privacy.webp"
+  }
+]
